@@ -15,14 +15,14 @@ body {
   margin: 0px;
   align-self: center;
   font-weight: 600;
+  margin-right: auto;
 }
 
 .navbar > h2 {
-  margin: 0px;
+  margin: 0px 15px;
   align-self: center;
   font-weight: 400;
   font-size: medium;
-  margin-left: 45%;
 }
 
 .meme {
