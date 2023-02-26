@@ -2,7 +2,7 @@ import meme from "../images/troll.png"
 
 export default function Navbar() {
     return (
-        <div className="navbar">
+        <div className="header">
 
             <img src={meme} className="meme" />
             <h3>Meme Generator</h3>
