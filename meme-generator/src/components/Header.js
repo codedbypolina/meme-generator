@@ -1,6 +1,6 @@
 import meme from "../images/troll.png"
 
-export default function Navbar() {
+export default function Header() {
     return (
         <div className="header">
 
