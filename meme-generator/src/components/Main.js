@@ -1,8 +1,10 @@
 
 export default function Main(props) {
     function showImage() {
-        let random = props.item.data.memes[Math.floor(Math.random() * 100)]
-        console.log(random)
+        let memeArray = props.item.data.memes
+        let randomNumber = Math.floor(Math.random() * memeArray.length)
+        let memeUrl = memeArray[randomNumber].url
+        console.log(memeUrl)
     }
     return (
         <div>
