@@ -67,3 +67,14 @@ button {
   display: flex;
   justify-content: center;
 }
+
+.image-output {
+  display: flex;
+  justify-content: center;
+}
+
+.memeImage {
+  margin-top: 30px;
+  width: 80%;
+  max-height: min-content;
+}
